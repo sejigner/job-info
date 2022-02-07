@@ -43,7 +43,7 @@ for i in range(0, len(abilities)):
     current_ability = abilities[i]
     file_name = path+'\\'+current_ability+' 직업 리스트.xlsx'
     print(file_name)
-    # df.to_excel(excel_writer=file_name)
+    df.to_excel(excel_writer=file_name)
 
 
     
